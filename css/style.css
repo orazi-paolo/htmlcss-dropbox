@@ -7,11 +7,6 @@
 
 /* generics */
 
-a{
-    color: #656565;
-    padding-right: 20px;
-    text-decoration: none;
-}
 
 h1{
     font-size: 70px;
@@ -23,6 +18,14 @@ p{
     margin-bottom: 20px;
 }
 
+h2{
+    font-size: 35px;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
 
 /* header */
 
@@ -31,6 +34,12 @@ p{
     display: flex;
     background-color: white;
     justify-content: space-between;
+}
+
+.color-lightgray{
+    color: #656565;
+    padding-right: 20px;
+    text-decoration: none;
 }
 
 .left-hd{
@@ -59,7 +68,23 @@ p{
 .start{
     background-color: #0161ff;
     color: white;
-    padding: 5px 12px
+    padding: 5px 12px;
+    text-decoration: none;
+}
+ul{
+    margin-bottom: 50px;
+    list-style-type: none;
+}
+li{
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+.fa-solid{
+    padding-right: 5px;
+}
+
+.fa-check{
+    color: #0b6fff;
 }
 
 /* div header */
@@ -86,8 +111,49 @@ p{
 
 }
 
+/* main */
 
+/* card */
+.row{
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.col{
+    width: calc((100% / 3) - (120px / 3));
+    border: 1px solid #656565 ;
+}
+.who-card{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
 
+.border-card{
+    border: 1px solid #656565;
+    margin-bottom: 20px;
+}
+
+.border-card-small{
+    border: 1px solid #656565; 
+    width: 20px;
+}
+
+.container-card{
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.price{
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.time{
+    margin-bottom: 50px;
+    font-size: 11px;
+    color: #656565;
+}
 
 
 /* utils */
@@ -97,23 +163,59 @@ p{
     margin: 0 auto;
 }
 
+.small-container{
+    max-width: 800px;
+    margin: 200px auto;
+}
+
 .flex{
     display: flex;
 }
 
+.font-s{
+    font-size: 14px;
+    color: #656565;
+}
 .mg-t-small{
     margin-top: 20px;
 }
+
+.mg-t-med{
+    margin-top: 40px;
+}
+
 .mg-b-small{
     margin-bottom: 30px;
 }
 
+.mg-b-med{
+    margin-bottom: 60px;
+}
+.pd-lft-med{
+    padding-left: 50px;
+}
 .link-start{
     background-color: #0161ff;
     color: #b9e5ff;
     padding: 8px 16px;
+    text-decoration: none;
+}
+.link-contattaci{
+    background-color: #0161ff;
+    color: #b9e5ff;
+    padding: 8px 16px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.block{
+    display: block;
+    text-align: center;
 }
 
 .relative{
     position: relative;
 }
+
