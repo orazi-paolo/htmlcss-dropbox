@@ -114,6 +114,10 @@ li{
 /* main */
 
 /* card */
+
+.card{
+    position: relative;
+}
 .row{
     flex-wrap: wrap;
     gap: 60px;
@@ -121,6 +125,11 @@ li{
 .col{
     width: calc((100% / 3) - (120px / 3));
     border: 1px solid #656565 ;
+}
+.col-max{
+    flex-grow: 1;
+    border: 1px solid #656565 ;
+
 }
 .who-card{
     text-align: center;
@@ -142,6 +151,10 @@ li{
     max-width: 200px;
     margin: 0 auto;
 }
+.container-card-col-max{
+    width: 500px;
+    margin-left: 12.33px;
+}
 
 .price{
     margin-bottom: 10px;
@@ -155,6 +168,11 @@ li{
     color: #656565;
 }
 
+.absolute-card{
+    position: absolute;
+    top: 50px;
+    right: 25px;
+}
 
 /* utils */
 
@@ -217,5 +235,9 @@ li{
 
 .relative{
     position: relative;
+}
+
+.font-med{
+    font-size: 14px;
 }
 
