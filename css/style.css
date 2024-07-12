@@ -147,7 +147,6 @@ li{
 
 .border-card{
     border: 1px solid #656565;
-    margin-bottom: 20px;
 }
 
 .border-card-small{
@@ -308,6 +307,9 @@ li{
 .mg-t-bigger{
     margin-top: 150px;
 }
+.mg-b-xs{
+    margin-bottom: 20px;
+}
 
 .mg-b-small{
     margin-bottom: 30px;
@@ -339,6 +341,9 @@ li{
     
 }
 
+.col.no-border{
+    border: none;
+}
 .block{
     display: block;
     text-align: center;
@@ -350,12 +355,6 @@ li{
 
 .font-med{
     font-size: 14px;
-}
-
-.font-small
-
-.no-border{
-    border: none;
 }
 
 .bg-light-green{
@@ -407,3 +406,8 @@ li{
     min-height: 250px;
 }
 
+.absolute-center{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
