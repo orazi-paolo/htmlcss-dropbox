@@ -8,6 +8,7 @@
 /* generics */
 
 
+
 h1{
     font-size: 70px;
     padding-top: 80px;
@@ -174,6 +175,36 @@ li{
     right: 25px;
 }
 
+/* contact-us */
+
+.contact-us{
+    gap: 60px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.right{
+    flex-basis: 30%;
+}
+
+.left{
+    flex-basis: 60%;
+}
+
+.img-contact-us{
+    display: block;
+    max-width: 100%;
+}
+
+.search-partner{
+    color: #656565;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #656565;
+    padding: 5px 10px;
+    text-align: center;
+}
+
 /* utils */
 
 .big-container{
@@ -200,6 +231,10 @@ li{
 
 .mg-t-med{
     margin-top: 40px;
+}
+
+.mg-t-big{
+    margin-top: 60px;
 }
 
 .mg-b-small{
