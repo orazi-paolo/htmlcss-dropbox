@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Open Sars", sans-serif;
+}
+
 
 /* generics */
 
@@ -243,6 +247,10 @@ li{
     margin-top: 60px;
 }
 
+.mg-t-bigger{
+    margin-top: 150px;
+}
+
 .mg-b-small{
     margin-bottom: 30px;
 }
@@ -281,6 +289,8 @@ li{
 .font-med{
     font-size: 14px;
 }
+
+.font-small
 
 .no-border{
     border: none;
