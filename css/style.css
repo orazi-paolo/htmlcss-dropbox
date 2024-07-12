@@ -205,6 +205,12 @@ li{
     text-align: center;
 }
 
+/* more operations with business*/
+.p-card{
+    font-size: 12px;
+    color: #656565;
+}
+
 /* utils */
 
 .big-container{
@@ -276,3 +282,6 @@ li{
     font-size: 14px;
 }
 
+.no-border{
+    border: none;
+}
