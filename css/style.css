@@ -124,7 +124,7 @@ li{
     gap: 60px;
 }
 .col{
-    width: calc((100% / 3) - (120px / 3));
+    flex-basis: calc((100% / 3) - (120px / 3));
     border: 1px solid #656565 ;
 }
 .col-max{
@@ -153,7 +153,7 @@ li{
     margin: 0 auto;
 }
 .container-card-col-max{
-    width: 500px;
+    max-width: 500px;
     margin-left: 12.33px;
 }
 
