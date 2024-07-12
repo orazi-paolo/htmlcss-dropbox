@@ -215,6 +215,33 @@ li{
     color: #656565;
 }
 
+/* flex-img */
+.total-row{
+    flex-wrap: wrap;
+}
+
+.row-img{
+    flex-wrap: wrap;
+}
+
+.col-nogap{
+    flex-basis: calc(100% / 3);
+}
+
+.col-2{
+    flex-basis: calc(100% / 2);
+}
+
+.img-col-2{
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+    filter: brightness(0);
+}
+.card-img{
+    height: 200px;
+}
+
 /* utils */
 
 .big-container{
@@ -295,3 +322,14 @@ li{
 .no-border{
     border: none;
 }
+
+.bg-light-green{
+    background-color: lightgreen;
+}
+
+.bg-dark-red{
+    background-color: #60092b;
+}
+
+
+
