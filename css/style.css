@@ -238,6 +238,11 @@ li{
 
 .col-2{
     flex-basis: calc(100% / 2);
+    border: 10px solid transparent;
+}
+
+.col-2:hover{
+    border: 10px solid rgba(255, 255, 255, 0.5);
 }
 
 .img-col-2{
