@@ -284,6 +284,18 @@ li{
 }
 
 /* footer */
+.hidden {
+    display: none;
+}
+
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-checkbox:checked ~ .hidden {
+    display: block;
+}
+
 .col-footer{
     flex-basis: calc(100% / 5);
     margin-top: 30px;
@@ -453,6 +465,10 @@ li{
 
 .color-white{
     color: white;
+}
+
+.color-black{
+    color: black;
 }
 
 .a-footer{
